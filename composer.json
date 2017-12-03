@@ -1,0 +1,19 @@
+{
+  "name": "backtheweb/laravel-flash",
+  "description": "Flash for Laravel 5",
+  "keywords": ["flash", "laravel", "message"],
+  "license": "MIT",
+  "require": {
+    "php": "^7.0",
+    "laravel/framework": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Backtheweb\\Flash\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
